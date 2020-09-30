@@ -21,15 +21,27 @@ app.get('/', function (req,res){
 
 app.post("/summary", function(req,res){
     const med =  medApp.diffCode(req.body.code)
-    console.log(med);
+    //console.log(med);
     
     if (med) {
-        res.render('summary', {})
+        res.render('inconvinience', {})
     } else {
         res.render("index")
     }
     // res.render('summary', {enterCode: actualCode})
 })
+
+app.get("/deliverySchedule", function (req, res){
+    if (status){
+        res.render
+    }
+    res.render(deliverySchedule)
+})
+
+// app.get("/thankyou", function(req, res){
+    
+//  res.render("thankyou", )
+// })
 
 var PORT = process.env.PORT || 3008;
 

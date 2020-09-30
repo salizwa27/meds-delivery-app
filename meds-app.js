@@ -1,6 +1,6 @@
 module.exports = function medsApp(){
 
-    var codeList = {}
+    //var codeList = {}
 
 
 

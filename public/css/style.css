@@ -1,7 +1,30 @@
-body{
-    background-color: brown;
-}
+body {
+    background-color: gray;
+  }
+  
+  h1 {
+    color:black;
+    text-align: center;
+  }
 
+  div {
+    width: 300px;
+    margin: auto;
+   
+  }
+
+  div {
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #textboxid
+  {
+      height:100px;
+      font-size:14pt;
+  }
 
 .container{
     
@@ -13,3 +36,5 @@ body{
     width: 50%;
 
 }
+
+
